@@ -21,7 +21,8 @@
     "paths": {
       "@/*": ["./*"],
       "@/schema": ["../../packages/backend/amplify/data/resource"],
-      "@/api": ["../../packages/backend/amplify/functions/api/handler"]
+      "@/api": ["../../packages/backend/amplify/functions/api/handler"],
+      "@/outputs": ["../../packages/backend/amplify_outputs.json"]
     }
   },
   "include": [

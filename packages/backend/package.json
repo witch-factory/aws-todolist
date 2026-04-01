@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
+  "scripts": {
+    "dev": "AWS_PROFILE=todolist-sandbox ampx sandbox",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "exports": {
     "./schema": "./amplify/data/resource.ts",
     "./outputs": "./amplify_outputs.json"
