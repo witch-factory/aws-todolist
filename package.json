@@ -1,0 +1,17 @@
+{
+  "name": "aws-todolist",
+  "private": true,
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "typecheck": "turbo run typecheck"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.30.3",
+  "devDependencies": {
+    "turbo": "^2.9.3",
+    "typescript": "^6.0.2"
+  }
+}

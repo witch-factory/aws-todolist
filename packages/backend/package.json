@@ -1,0 +1,15 @@
+{
+  "name": "@aws-todolist/backend",
+  "version": "1.0.0",
+  "private": true,
+  "exports": {
+    "./schema": "./amplify/data/resource.ts",
+    "./outputs": "./amplify_outputs.json"
+  },
+  "dependencies": {
+    "@aws-amplify/backend": "^1.22.0"
+  },
+  "devDependencies": {
+    "@aws-amplify/backend-cli": "^1.8.2"
+  }
+}
