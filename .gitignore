@@ -11,8 +11,6 @@ build/
 .turbo/
 
 # AWS Amplify
-amplify/
-#amplify-do-not-delete-but-can-be-updated
 amplify-backup/
 .amplify/
 **/amplify/.config/local-*
