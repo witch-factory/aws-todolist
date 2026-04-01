@@ -2,6 +2,7 @@
   "name": "@aws-todolist/backend",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "exports": {
     "./schema": "./amplify/data/resource.ts",
     "./outputs": "./amplify_outputs.json"
